@@ -1,36 +1,42 @@
 body {
-    font-size: 15px;
-    background-color: rgb(216, 213, 213);
+  font-size: 15px;
+  background-color: rgb(186, 180, 180);
+  min-height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  line-height: 1.2;
 }
 html {
-    font-size: 15px;
+  font-size: 15px;
 }
-.nav-container {
-    display: flex;
-    flex-direction: row;
 
+header {
+  top: 0%;
+  height: 50px;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-links-container {
-    display: flex;
-    flex-direction: row;
-    
+  display: flex;
+  flex-direction: row;
 }
 .nav-links {
-    margin: 20px;
-
+  margin: 20px;
 }
 
 .nav-links a {
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
 }
 @media screen and (max-width: 590px) {
-    .nav-contents {
-        
-        flex-direction: column;
-        align-items: center;
-    }
-    
+  .nav-contents {
+    flex-direction: column;
+    align-items: center;
+  }
 }

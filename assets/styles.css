@@ -1,14 +1,10 @@
-
 /* header start */
 header {
   top: 0%;
   height: 50px;
   width: 100%;
   display: flex;
- 
 }
-
-
 
 .nav-container {
   display: flex;
@@ -41,8 +37,6 @@ header {
   background-size: cover;
   height: 200px;
   padding-top: 100px;
-  
-  
 }
 
 .title {
@@ -57,21 +51,17 @@ header {
 }
 
 /* header end */
-hr{
+hr {
   border-style: dashed;
   border-color: white;
-  
 }
 /* main about me start */
 .myinfo {
   width: 100%;
- 
-
 }
 .mypic {
   height: auto;
   width: 400px;
-
 }
 
 .aboutinfo {
@@ -91,7 +81,7 @@ hr{
   text-transform: capitalize;
   font-size: 50px;
   margin-bottom: 20px;
-  color: black
+  color: black;
 }
 
 .aboutinfo h5 {
@@ -133,12 +123,17 @@ html {
 /* flex cards  */
 
 .projects {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .projects-cards {
   position: relative;
+}
+.project-work {
+  position: absolute;
+  top: 0%;
+  left: 0;
 }

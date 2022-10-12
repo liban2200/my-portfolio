@@ -1,11 +1,12 @@
 body {
   font-size: 15px;
-  background-color: rgb(186, 180, 180);
   min-height: 100vh;
+  background-color: rgb(186, 180, 180);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Verdana, sans-serif;
   line-height: 1.2;
 }
+
 html {
   font-size: 15px;
 }
@@ -14,6 +15,8 @@ header {
   top: 0%;
   height: 50px;
   width: 100%;
+  display: flex;
+ 
 }
 
 .nav-container {
@@ -40,3 +43,29 @@ header {
     align-items: center;
   }
 }
+
+.banner {
+  background-image: url(../assets/images/1H-ecosys-background-pattern-full-width-fade-to-white-blue@2x.png);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  padding-top: 100px;
+  
+  
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 5px;
+  margin: 0;
+  text-align: center;
+}
+hr{
+  border-style: dashed;
+  border-color: white;
+  
+}
+
+

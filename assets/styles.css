@@ -1,14 +1,20 @@
 /* header start */
 header {
   top: 0%;
-  height: 50px;
+  height: 60px;
   width: 100%;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-width: 3px;
+  border-radius: 2px;
+  background: linear-gradient(0.25turn, #ffffff, #c5e4f16f,#98b4c0, #3f87a68b);
 }
 
 .nav-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .nav-links-container {
@@ -32,18 +38,20 @@ header {
 }
 
 .banner {
-  background-image: url(../assets/images/1H-ecosys-background-pattern-full-width-fade-to-white-blue@2x.png);
+  background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
   background-position: center;
   background-size: cover;
-  height: 200px;
+  background-repeat: no-repeat;
+  height: 250px;
   padding-top: 100px;
   margin-bottom: 40px;
+  
 }
 
 .title {
   font-size: 50px;
   font-weight: 400;
-  color: white;
+  color: black;
   letter-spacing: 5px;
   margin: 0;
   text-align: center;
@@ -61,12 +69,13 @@ hr {
   width: 100%;
 }
 .mypic {
-  height: auto;
+  height: 700px;
   width: 400px;
 }
 
 .aboutinfo {
   width: 500px;
+  margin-left: 170px;
 }
 
 .infodiv {
@@ -99,7 +108,7 @@ hr {
 }
 
 span {
-  color: red;
+  color: blue;
 }
 
 .javapic {
@@ -111,10 +120,12 @@ span {
 body {
   font-size: 15px;
   min-height: 100vh;
-  background-color: rgba(0, 255, 255, 0.136);
+  background-color: rgba(0, 255, 255, 0.066);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Verdana, sans-serif;
   line-height: 1.2;
+
+  margin: 0;
 }
 
 html {
@@ -126,35 +137,60 @@ html {
 .projects {
   display: flex;
   flex-direction: row;
-flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: center;
-  
 }
-.project-title{
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-project {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.project-title {
   text-align: center;
   font-size: 50px;
-  margin-top: 60px;
+  margin-top: 120px;
 }
 
 .projects-cards {
- border-width: 5px;
- border-radius: 5px;
- border-style: solid;
- border-color: rgb(0, 0, 0);
- background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f1efec);
- margin-left: 20px;
- margin-top: 40px;
- height: 350px;
- width: 250px;
+  border-width: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f1efec);
+  margin-left: 20px;
+  margin-top: 60px;
+  height: 350px;
+  width: 250px;
+}
+.projects-1-cards {
+  border-width: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f1efec);
+  margin-left: 20px;
+  margin-top: 40px;
+  height: 320px;
+  width: 530px;
 }
 .project-work {
-text-align: center;
+  text-align: center;
 }
 
-.card-image{
-height: 150px;
-width:250px;
-margin-top: 30px;
-margin-bottom: 40px;
-
+.card-image {
+  height: 150px;
+  width: 250px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.card-image-1 {
+  height: 180px;
+  width: 530px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

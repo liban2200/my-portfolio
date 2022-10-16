@@ -5,7 +5,8 @@
 - Put my name, a recent picture of myself, work information, contact details and links to my sections.
 - I created a navbar bar with links that direct you to the corresponding sections.
 - My first application image is larger then the other ones.
-- To create a responsive website 
+- To create a responsive website.
+
 
 ## Link
 

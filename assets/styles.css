@@ -8,7 +8,7 @@ header {
   justify-content: space-between;
   border-width: 3px;
   border-radius: 2px;
-  background: linear-gradient(0.25turn, #ffffff, #c5e4f16f,#98b4c0, #3f87a68b);
+  background: linear-gradient(0.25turn, #ffffff, #c5e4f16f, #98b4c0, #3f87a68b);
 }
 
 .nav-container {
@@ -44,8 +44,7 @@ header {
   background-repeat: no-repeat;
   height: 250px;
   padding-top: 100px;
-  margin-bottom: 40px;
-  
+  margin-bottom: 0px;
 }
 
 .title {
@@ -132,7 +131,7 @@ html {
   font-size: 15px;
 }
 
-/* flex cards  */
+/* project cards start */
 
 .projects {
   display: flex;
@@ -144,6 +143,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 100px;
 }
 .main-project {
   display: flex;
@@ -193,4 +193,27 @@ html {
   width: 530px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+/* porject card end */
+
+/* footer start */
+
+.footer-section {
+  text-align: center;
+  text-decoration: none;
+}
+
+.contact-me {
+  text-align: center;
+  margin-top: 30px;
+}
+.bottom {
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+  text-transform: capitalize;
+  margin-top: 50px;
+}
+.footer {
+  margin-top: 30px;
 }

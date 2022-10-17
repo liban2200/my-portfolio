@@ -138,12 +138,23 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  transform: all 300ms ease-in-out;
+}
+
+.projects-1-cards:hover {
+  box-shadow: 0px 20px 50px;
+
+}
+
+.projects-cards:hover {
+  box-shadow: 0px 20px 50px;
 }
 .cards {
-  display: flex;
+  display: flex;  
   flex-direction: column;
   justify-content: center;
   margin-bottom: 100px;
+
 }
 .main-project {
   display: flex;

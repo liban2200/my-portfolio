@@ -112,14 +112,6 @@ hr {
   margin-bottom: 45px;
   line-height: 30px;
 }
-  @media screen and (max-width: 600px) {
-    .aboutinfo {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-
-
 span {
   color: blue;
 }
@@ -163,8 +155,7 @@ html {
 }
 
 .projects-1-cards:hover {
- 
-  box-shadow: 3px 3px red, -1em 0 .4em olive;
+  box-shadow: 3px 3px red, -1em 0 0.4em olive;
 }
 
 .projects-cards:hover {

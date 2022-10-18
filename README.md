@@ -8,6 +8,14 @@
 - My first application image is larger then the other ones.
 - To create a responsive website.
 
+## What I did in this project:
+
+- Created my portfolio
+- I put a picture of myself, my work information andcontact details.
+- I created a navbar bar with links that direct you to the corresponding sections.
+- I created applictions and one of the applciations is larger then the others with a link to a deployed application
+- created a responsive website so it can be used with various other devices
+
 ## Link
 
 ### Deployed url: [https://liban2200.github.io/my-portfolio/](https://liban2200.github.io/my-portfolio/)

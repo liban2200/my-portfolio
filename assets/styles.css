@@ -30,8 +30,8 @@ header {
   font-size: 18px;
   text-decoration: none;
 }
-@media screen and (max-width: 590px) {
-  .nav-contents {
+@media screen and (max-width: 600px) {
+  .header {
     flex-direction: column;
     align-items: center;
   }
@@ -64,6 +64,13 @@ hr {
   border-color: white;
 }
 /* main about me start */
+
+@media screen and (max-width: 600px) {
+  .infodiv {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .myinfo {
   width: 100%;
 }
@@ -105,6 +112,13 @@ hr {
   margin-bottom: 45px;
   line-height: 30px;
 }
+  @media screen and (max-width: 600px) {
+    .aboutinfo {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
 
 span {
   color: blue;
@@ -141,20 +155,26 @@ html {
   transform: all 300ms ease-in-out;
 }
 
-.projects-1-cards:hover {
-  box-shadow: 0px 20px 50px;
+@media screen and (max-width: 600px) {
+  .projects {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 
+.projects-1-cards:hover {
+ 
+  box-shadow: 3px 3px red, -1em 0 .4em olive;
 }
 
 .projects-cards:hover {
   box-shadow: 0px 20px 50px;
 }
 .cards {
-  display: flex;  
+  display: flex;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 100px;
-
 }
 .main-project {
   display: flex;
